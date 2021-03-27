@@ -1,6 +1,6 @@
 # README #
 
-Hi friends, this is a test for developer internship. 
+Hi friends, this is a test for junior frontend developer. 
 
 Please follow the steps and goal to be successfull candidate.
 
@@ -19,10 +19,10 @@ Please follow the steps and goal to be successfull candidate.
 ### How to submit? ###
 
 * Use this bitbucket repository as a place for your submission
-* Create a new branch with this format : intern-test-<insert-your-name>. e.g : intern-test-budierwanto
+* Create a new branch with this format : junior-fe-<insert-your-name>. e.g : junior-fe-budierwanto
 * Push your code to that branch 
 
 ### Deadline ###
 
-* 5 days from the test given
+* 7 days from the test given
 
