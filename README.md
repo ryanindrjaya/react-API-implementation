@@ -6,7 +6,7 @@ Please follow the steps and goal to be successfull candidate.
 
 ### What to make? ###
 
-* Use PHP as the main language
+* Use HTML and Javascript or PHP
 * Call this api http://api.tvmaze.com/search/shows?q=girls and use the json from it. The main properties are url and name, you can use other properties as creative as you want. But the main properties must displayed in UI  
 * Display the data using this design https://imgur.com/MtilNpm
 * Explanation of design in above url (https://imgur.com/MtilNpm) : 
