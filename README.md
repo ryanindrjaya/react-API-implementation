@@ -32,6 +32,7 @@ Please follow the steps and goal to be successfull candidate.
 * 1. Functional page displaying list of tvs and search function but using library react / angular / vue / nextjs ( one of this not all )
 * 2. UI section without api call got 50% score
 * 3. UI with api call got 100% score
+* deadline 2 weeks from the test given
 * good luck and have fun.
 
 ### How to submit? ###
