@@ -13,7 +13,7 @@ Please follow the steps and goal to be successfull candidate.
 * 1 Hardcode text Campflix bold style
 * 2 Textbox for search and profile name / user name just fill your name e.g budi erwanto
 * 3 Display a picture from the api using url property can be 1st image in array or any random up to you
-* 4 Display all tv shows from this api http://api.tvmaze.com/singlesearch/shows?q=girls, scrollable to the right
+* 4 Display all tv shows from this api http://api.tvmaze.com/search/shows?q=girls, scrollable to the right
 * 5 Bonus if you can implement search api, but not mandatory 
 
 ### Main Quest ###
