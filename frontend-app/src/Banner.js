@@ -9,7 +9,7 @@ function Banner() {
 
   useEffect(() => {
     async function fetchData() {
-      const request = await axios.get(requests.girlList);
+      const request = await axios.get(requests.movieList);
       setMovie(
         request.data[
           Math.floor(Math.random() * request.data.length)
@@ -30,7 +30,7 @@ function Banner() {
   const bannerImg = () => {
     if (movie) {
       if (movie.show.image === null){
-        return 'https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/05/paper-girls-featured.jpg';
+        return 'https://motivatevalmorgan.com/wp-content/uploads/2016/06/default-movie.jpg';
       }
       return movie?.show.image.original;
     } else {
