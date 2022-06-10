@@ -9,7 +9,7 @@ function Banner() {
 
   useEffect(() => {
     async function fetchData() {
-      const request = await axios.get(requests.movieList);
+      const request = await axios.get(requests.girlList);
       setMovie(
         request.data[
           Math.floor(Math.random() * request.data.length)
@@ -42,6 +42,7 @@ function Banner() {
     <header
       className="banner"
       style={{
+        backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundImage: `url(${bannerImg()})`,
         backgroundPosition: "center center",

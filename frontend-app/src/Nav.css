@@ -27,6 +27,7 @@
 
 .nav__logo {
   color: #db0000;
+  font-weight: 800;
   position: fixed;
   top: 10px;
   left: 0;
@@ -37,7 +38,48 @@
 
 .nav__username {
   color: #fff;
-  position: fixed;
-  right: 20px;
   cursor: pointer;
+  margin-left: 20px;
+}
+
+.nav__right-section {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  right: 20px;
+}
+
+.nav__search {
+  right: 120px;
+  position: absolute;
+  display: inline-block;
+}
+
+.nav__searchBar {
+  width: 0px;
+  height: 34px;
+  background-color: transparent;
+  box-shadow: none;
+  color: #fff;
+  border: 1px solid transparent;
+  outline: none;
+  padding-left: 35px;
+  font-size: 16px;
+  transition: 0.3s ease all;
+  display: hidden;
+}
+
+.toggle {
+  width: 240px;
+  border-color: #fff;
+  display: block;
+}
+
+.nav__searchIcon {
+  cursor: pointer;
+  width: 20px;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
 }

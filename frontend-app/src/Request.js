@@ -1,5 +1,5 @@
 const requests = {
-  movieList: `/search/shows?q=girls`,
+  girlList: `/search/shows?q=girls`,
 }
 
 export default requests;
