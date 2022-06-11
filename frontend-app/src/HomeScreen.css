@@ -1,0 +1,36 @@
+.nav__search {
+  z-index: 10;
+  right: 130px;
+  top: 15px;
+  position: fixed;
+  display: inline-block;
+}
+
+.nav__searchBar {
+  width: 0px;
+  height: 34px;
+  background-color: transparent;
+  box-shadow: none;
+  color: #fff;
+  border: 1px solid transparent;
+  outline: none;
+  padding-left: 35px;
+  font-size: 16px;
+  transition: 0.3s ease all;
+  display: hidden;
+}
+
+.toggle {
+  width: 240px;
+  border-color: #fff;
+  display: block;
+}
+
+.nav__searchIcon {
+  cursor: pointer;
+  width: 20px;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}

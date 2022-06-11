@@ -33,8 +33,6 @@ function Banner() {
         return 'https://motivatevalmorgan.com/wp-content/uploads/2016/06/default-movie.jpg';
       }
       return movie?.show.image.original;
-    } else {
-      return 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Black_flag.svg/1200px-Black_flag.svg.png';
     }
   }
 

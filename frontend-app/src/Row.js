@@ -26,7 +26,7 @@ function Row({ title, fetchUrl }) {
               return (
                 <img
                   className="row__poster"
-                  key={movie.show.id}
+                  key={`${movie.show.id}`}
                   src={`${movie.show.image.original}`}
                   alt={`${movie.show.name}`}
                 />
